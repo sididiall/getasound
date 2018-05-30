@@ -89,8 +89,13 @@ header h2{
 {
     max-height: 82px;
 }
-.section-container .section-content .B2B-section input,
-.section-container .section-content .B2C-section input
+.section-container .section-content .B2B-section .form-content 
+{
+    width: 650px;
+    max-width: 100%;
+}
+.section-container .section-content .B2B-section .form-content input,
+.section-container .section-content .B2C-section .form-content input
 {
     padding: 10px;
     height: 70px;
@@ -108,7 +113,6 @@ header h2{
 }
 
 #characters{
-    position: relative;
-    left: 585px;
+    float: right;
     color: #3494e0;
 }
