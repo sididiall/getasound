@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 180px 50px 120px 0;
+}
+header h2{  
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.section-container{
+    background-color: #efefef52;
+    padding-bottom: 80px;
+}
+.section-container .section-content     {
+    font-size: 15px;
+}
+.section-container .section-content .target-section .content-legend,
+.section-container .section-content .B2B-section .content-legend,
+.section-container .section-content .B2C-section .content-legend
+{
+    display: block;
+    font-size: 15px;
+    color: #dadada;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.section-container .section-content .target-section .target-content, 
+.section-container .section-content .B2B-section .target-content,
+.section-container .section-content .B2C-section .target-content
+{
+    display: flex;
+}
+.section-container .section-content .target-section .target-content .content{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px 3px #efefefef;
+    width: 130px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 75px;
+}
+.section-container .section-content .target-section .target-content .content:focus,
+.section-container .section-content .target-section .target-content .content:active
+{
+    outline: 3px solid #3494e0;
+}
+.section-container .section-content .target-section .target-content .content > span{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.section-container .section-content .B2B-section .target-content .content,
+.section-container .section-content .B2C-section .target-content .content
+{
+    width: 105px;
+    max-width: 100%;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.section-container .section-content .B2B-section .target-content .content > span,
+.section-container .section-content .B2C-section .target-content .content > span
+{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.section-container .section-content .B2B-section .target-content .content > div,
+.section-container .section-content .B2C-section .target-content .content > div
+{
+    background-color: #ffffff;
+    border: 2px solid #ececec;
+    padding: 10px 0;
+}
+.section-container .section-content .B2B-section .target-content .content > div:focus,
+.section-container .section-content .B2C-section .target-content .content > div:focus,
+.section-container .section-content .B2B-section .target-content .content > div:active,
+.section-container .section-content .B2C-section .target-content .content > div:active
+{
+    outline: 3px solid #3494e0;
+}
+.section-container .section-content .B2B-section .target-content .content > div > img,
+.section-container .section-content .B2C-section .target-content .content > div > img
+{
+    max-height: 82px;
+}
+.section-container .section-content .B2B-section input,
+.section-container .section-content .B2C-section input
+{
+    padding: 10px;
+    height: 70px;
+    width: 650px;
+    max-width: 100%;
+    border: 2px solid #ececec;
+}
+
+.hidden{
+    display:none;
+}
+
+.shown{
+    display: block !important;
+}
+
+#characters{
+    position: relative;
+    left: 585px;
+    color: #3494e0;
+}
